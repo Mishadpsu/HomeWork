@@ -1,0 +1,16 @@
+h1{
+    text-transform: uppercase;
+}
+blockquote{
+    font-family: lato;
+    font-size: 60px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ul1 li:nth-child(even){
+    font-family: cursive; size: 40px;
+    color: lightcoral
+    
+}
+

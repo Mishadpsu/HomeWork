@@ -1,0 +1,108 @@
+body {
+  font-family: "Roboto"; }
+
+.container-fluid {
+  width: 2000px;
+  height: 1100px;
+  -webkit-box-shadow: 10px 10px 10px 10px whitesmoke, 20px 20px 20px 20px;
+          box-shadow: 10px 10px 10px 10px whitesmoke, 20px 20px 20px 20px;
+  margin-top: 50px;
+  padding-top: 150px; }
+  .container-fluid h1 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 14px;
+    color: #0e1a35;
+    font-family: "Roboto";
+    font-weight: 250; }
+
+.row {
+  padding-top: 100px; }
+
+.col-3 {
+  padding-top: 75px;
+  -webkit-filter: drop-shadow(0.809px 0.588px 30px rgba(14, 26, 53, 0.15));
+          filter: drop-shadow(0.809px 0.588px 30px rgba(14, 26, 53, 0.15));
+  width: 360px;
+  height: 460px;
+  background-color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .col-3 h2 {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #0e1a35;
+    font-family: "Roboto";
+    font-weight: 400; }
+  .col-3 h3 {
+    text-align: center; }
+
+li {
+  list-style: none;
+  font-size: 18px;
+  padding: 0;
+  text-align: center; }
+  li .red {
+    color: pink; }
+  li i {
+    padding-bottom: 18px;
+    padding-right: 10px;
+    vertical-align: -6px;
+    color: #5284ff; }
+
+.button {
+  margin-top: 100px;
+  font-size: 14px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8492af;
+  font-family: "Roboto";
+  font-weight: 400; }
+  .button button {
+    margin-top: 60px;
+    margin-bottom: 120px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    width: 204px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #5584ff; }
+
+.price {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .price span {
+    font-size: 72px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    color: #0e1a35;
+    font-family: "Roboto";
+    font-weight: 700; }
+  .price .dollar {
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 65px;
+    color: #0e1a35;
+    font-family: "Roboto";
+    font-weight: 700; }
+  .price .MO {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 65px;
+    color: #8492af;
+    font-family: "Roboto";
+    font-weight: 400; }
+
+/*# sourceMappingURL=main.css.map */

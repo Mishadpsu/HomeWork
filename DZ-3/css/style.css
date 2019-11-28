@@ -1,0 +1,43 @@
+#header {
+
+    background: orange;
+    height: 100px;
+    width: 100%;
+} 
+h1{
+    margin-left: 900px ;
+}
+h2{
+    margin-left: 900px ;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+
+table {
+    margin-left: 750px;
+}
+#t1{
+    margin-left: 805px;
+    margin-top: -50px;
+}
+#divv{
+    margin-left: 625px;
+}
+#t2{
+    margin-left: 805px;
+    margin-top: -20px; 
+}
+#divv2{
+    margin-left: 675px;
+}
+#form{
+    margin-left: 675px;
+    line-height: 0;
+    line-height: 0em;
+}
+#divv4{
+    margin-left: 810px;
+}

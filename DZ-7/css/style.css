@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: teal no-repeat center top / cover; 
+    height: 100px; 
+    text-align: center;
+}
+nav{
+    background: darkgreen;
+    height: 50px;
+}
+#sidebar{
+    background:blue;
+    height: 500px;
+    width: 200px;
+    float: left;
+    max-width: 200px;
+    min-width: 150px;
+}
+#content{
+    background:aqua center / cover;
+    margin-left: 200px;
+    height: 500px;
+    max-width: auto;
+    min-width: auto;
+}
+#aside{
+    background:blue left  / cover;
+    height: 500px;
+    width: 200px;
+    float: right;
+    max-width: 200px;
+    min-width: 150px;
+}
+footer{
+    background: teal;
+    height: 50px;
+}

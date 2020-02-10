@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url(../img/bg3.jpg) no-repeat;
+  background-size: 200%;
+}
+.balet img{
+    display: block;
+    position: fixed;
+    width: 400px;
+    height: 762px;
+    margin-left: -1225px;
+    z-index: -1;
+}
+.balet2 img{
+    display: block;
+    position: fixed;
+    width: 400px;
+    height: 762px;
+    z-index: -2;
+    margin-left: 820px;
+}
+header{
+    display: flex;
+    background: #1d1d1d;
+    justify-content: space-between;
+    align-items: center;
+    .logo img{
+        width: 500px;
+        height: 175px;
+        cursor: pointer;
+    }
+    li{
+        display: inline-flex;
+        list-style: none;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        &:hover{
+            color: #9d03c5;
+            border-radius: 50px;
+            box-shadow: 1px 1px 10px 1px #9d03c5;
+        }
+    }
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .about{
+        background: url(../img/030.jpg) no-repeat;
+        box-shadow: 1px 1px 10px 1px #9d03c5;
+        background-size: cover;
+        background-position: right;
+        width: 1600px;
+        height: 1000px;
+        .about_us{
+            width: 50%;
+            text-align: center;
+            h1{
+                font-size: 70px;
+                text-shadow: 1px 1px 2px white;
+                color: black;
+            }
+            p{
+                font-size: 25px;
+                text-shadow: 1px 1px 1px black;
+            }
+        }
+    }
+}
+.galery{
+    display: flex;
+    flex-direction: row;
+    background: #1d1d1d;
+    box-shadow: 1px 1px 10px 1px #9d03c5;
+    width: 1600px;
+    height: 1000px;
+    .galery_item{
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+    .galery_photo img{
+        width: 30%;
+        height: 400px;
+        padding: 20px;
+        box-shadow: 1px 1px 10px 1px white;
+    }
+}
